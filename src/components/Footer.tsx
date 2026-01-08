@@ -1,0 +1,55 @@
+import logo from "@/assets/instajyotish-logo.jpeg";
+
+const Footer = () => {
+  return (
+    <footer className="py-12 bg-card border-t border-border">
+      <div className="container px-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="InstaJyotish"
+              className="w-10 h-10 rounded-lg"
+            />
+            <span className="font-display text-xl font-semibold text-foreground">
+              InstaJyotish
+            </span>
+          </div>
+
+          <nav className="flex flex-wrap justify-center gap-6">
+            <a
+              href="#how-it-works"
+              className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              How It Works
+            </a>
+            <a
+              href="#use-cases"
+              className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Use Cases
+            </a>
+            <a
+              href="#pricing"
+              className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Pricing
+            </a>
+            <a
+              href="#founders"
+              className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Team
+            </a>
+          </nav>
+
+          <p className="font-body text-sm text-muted-foreground">
+            © 2026 InstaJyotish. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
