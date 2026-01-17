@@ -94,7 +94,7 @@ const Pricing = () => {
           href="https://wa.me/918291218234?text=Namaste"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-3 bg-primary text-primary-foreground font-body font-semibold rounded-xl hover:bg-primary/90 transition-colors"
+          className="px-8 py-3 bg-primary-foreground text-primary font-body font-semibold rounded-xl hover:bg-primary-foreground/90 transition-colors"
         >
           Get Started
         </a>
