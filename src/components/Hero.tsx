@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, Sparkles } from "lucide-react";
-import logo from "@/assets/projyotish-logo.svg";
+import logo from "@/assets/projyotish-logo.jpg";
 
 const Hero = () => {
   return (
