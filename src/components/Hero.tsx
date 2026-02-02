@@ -48,7 +48,7 @@ const Hero = () => {
           >
             AI-powered Vedic Astrology on WhatsApp & iMessage. Get personalized 
             muhurtas for key decisions and deep karmic insights. Trained by 
-            IITian Vedic Astrologer on ancient knowledge and thousands of real cases.
+            IITian who studied Vedic Astrology as a science on ancient knowledge and thousands of real cases.
           </motion.p>
 
           {/* CTA Buttons */}
