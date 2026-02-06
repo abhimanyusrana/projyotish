@@ -32,12 +32,12 @@ const Footer = () => {
               >
                 Use Cases
               </a>
-              <a
-                href="/#pricing"
+              <Link
+                to="/pricing"
                 className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 Pricing
-              </a>
+              </Link>
               <a
                 href="/#founders"
                 className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"

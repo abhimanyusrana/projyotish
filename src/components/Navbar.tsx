@@ -7,7 +7,7 @@ import logo from "@/assets/projyotish-logo.jpg";
 const navLinks = [
   { name: "How It Works", href: "/#how-it-works" },
   { name: "Use Cases", href: "/#use-cases" },
-  { name: "Pricing", href: "/#pricing" },
+  { name: "Pricing", href: "/pricing" },
   { name: "Team", href: "/#founders" },
 ];
 

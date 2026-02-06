@@ -30,13 +30,13 @@ const CTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#pricing"
+            <Link
+              to="/pricing"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-foreground text-primary font-body font-semibold rounded-xl shadow-elevated hover:bg-primary-foreground/90 transition-all duration-300 hover:-translate-y-1"
             >
               <Sparkles className="w-5 h-5" />
               Get Started Now
-            </a>
+            </Link>
             <a
               href="#how-it-works"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent text-primary-foreground font-body font-medium rounded-xl border-2 border-primary-foreground/30 hover:border-primary-foreground/60 transition-all duration-300"
