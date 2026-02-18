@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { trackClick } from "@/lib/tracking";
+import { trackMetaEvent } from "@/lib/tracking";
 
 const suggestions = [
   "When to schedule salary hike meeting with boss",
@@ -45,12 +45,6 @@ const HeroQueryInput = () => {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") {
-              trackClick("Hero WhatsApp CTA");
-              window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-            }
-          }}
           placeholder="Ask about your kundli, muhurat, career..."
           className="w-full h-14 pl-5 pr-14 bg-card border-2 border-border rounded-full font-body text-foreground placeholder:text-muted-foreground shadow-soft focus:outline-none focus:border-primary/50 focus:ring-2 focus:ring-primary/20 transition-all duration-300"
         />
@@ -58,7 +52,7 @@ const HeroQueryInput = () => {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackClick("Hero WhatsApp CTA")}
+          onClick={() => trackMetaEvent("Lead", { content_name: "Hero WhatsApp CTA" })}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="absolute right-2 w-10 h-10 flex items-center justify-center bg-[#25D366] text-white rounded-full shadow-elevated hover:bg-[#20BD5A] transition-all duration-300"
