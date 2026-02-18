@@ -43,8 +43,8 @@ const MarriageTiming = () => {
               transition={{ duration: 0.6, delay: 0.15 }}
               className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight"
             >
-              Get Relationship{" "}
-              <span className="text-gradient">Astrology Consultation</span>
+              Remove Obstacles{" "}
+              <span className="text-gradient">to Marriage</span>
             </motion.h1>
 
             {/* Body copy */}
