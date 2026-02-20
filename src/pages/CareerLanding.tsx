@@ -162,6 +162,56 @@ const CareerLanding = () => {
     <div className="min-h-screen bg-background overflow-x-hidden">
       {/* ===== HERO ===== */}
       <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-hero">
+        {/* Solar system SVG background */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-30 md:opacity-40">
+          <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[500px] h-[500px] md:w-[700px] md:h-[700px]">
+            <defs>
+              <filter id="sun-glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="6" result="blur" />
+                <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+              </filter>
+            </defs>
+            {/* Orbit rings */}
+            <circle cx="200" cy="200" r="48" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            <circle cx="200" cy="200" r="72" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            <circle cx="200" cy="200" r="100" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            <circle cx="200" cy="200" r="135" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            <circle cx="200" cy="200" r="178" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            <circle cx="200" cy="200" r="220" stroke="#C9A84C" strokeWidth="0.4" strokeDasharray="3 6" opacity="0.35" />
+            {/* Sun */}
+            <circle cx="200" cy="200" r="18" fill="#C4522A" filter="url(#sun-glow)" opacity="0.9" />
+            <circle cx="200" cy="200" r="22" fill="none" stroke="#D4623A" strokeWidth="1" opacity="0.5" />
+            {/* Mercury */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 12s linear infinite" }}>
+              <circle cx="200" cy="152" r="4" fill="#B8A898" />
+            </g>
+            {/* Venus */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 18s linear infinite" }}>
+              <circle cx="200" cy="128" r="6" fill="#D4A876" />
+            </g>
+            {/* Earth + Moon */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 25s linear infinite" }}>
+              <circle cx="200" cy="100" r="6.5" fill="#4A7FC1" />
+              <g style={{ transformOrigin: "200px 100px", animation: "solar-orbit 8s linear infinite" }}>
+                <circle cx="200" cy="84" r="2.5" fill="#C8C4BE" />
+              </g>
+            </g>
+            {/* Mars */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 35s linear infinite" }}>
+              <circle cx="200" cy="65" r="5" fill="#C4522A" />
+            </g>
+            {/* Jupiter */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 50s linear infinite" }}>
+              <circle cx="200" cy="22" r="11" fill="#C9A84C" />
+            </g>
+            {/* Saturn + ring */}
+            <g style={{ transformOrigin: "200px 200px", animation: "solar-orbit 70s linear infinite" }}>
+              <ellipse cx="200" cy="-20" rx="16" ry="4" fill="none" stroke="#D4B896" strokeWidth="1.5" opacity="0.7" />
+              <circle cx="200" cy="-20" r="9" fill="#D4B896" />
+            </g>
+          </svg>
+        </div>
+
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 w-64 h-64 bg-saffron/10 rounded-full blur-3xl animate-pulse-glow" />
           <div className="absolute bottom-20 right-10 w-80 h-80 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
