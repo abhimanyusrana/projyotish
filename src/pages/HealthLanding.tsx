@@ -116,30 +116,30 @@ const carouselQuestions = [
 const testimonials = [
   {
     messages: [
-      { text: "I've been dealing with stomach issues for 2 years. No doctor can figure it out. Will it ever get better?", sent: false },
-      { text: "Ketu is afflicting your 6th house. This phase eases after June. A change in diet and specific remedies will help.", sent: true },
+      { text: "I've been dealing with stomach issues for 2 years. No doctor can figure it out. Will it ever get better?", sent: false, time: "Mar 22, 11:15 AM" },
+      { text: "Ketu is afflicting your 6th house. This phase eases after June. A change in diet and specific remedies will help.", sent: true, time: "Mar 22, 11:30 AM" },
       { text: "Sir, started feeling so much better since last month. Finally sleeping well 🙏", sent: false, time: "Jul 15, 10:30 AM" },
     ],
   },
   {
     messages: [
-      { text: "My anxiety is out of control. I can't focus on anything. Is there any astrological reason?", sent: false },
-      { text: "Moon and Rahu conjunction in your chart is causing mental turbulence. This transit weakens after August. Chanting and meditation will bring relief sooner.", sent: true },
-      { text: "Started the remedies. My mind is so much calmer now. Thank you 🙏", sent: false },
+      { text: "My anxiety is out of control. I can't focus on anything. Is there any astrological reason?", sent: false, time: "May 8, 9:20 AM" },
+      { text: "Moon and Rahu conjunction in your chart is causing mental turbulence. This transit weakens after August. Chanting and meditation will bring relief sooner.", sent: true, time: "May 8, 9:40 AM" },
+      { text: "Started the remedies. My mind is so much calmer now. Thank you 🙏", sent: false, time: "Sep 14, 8:05 PM" },
     ],
   },
   {
     messages: [
-      { text: "Doctor is recommending surgery but I'm scared. Is this the right time?", sent: false },
-      { text: "Your 6th lord is strong and Mars supports medical intervention right now. The next 2 months are favorable. Don't delay.", sent: true },
-      { text: "Surgery went perfectly. Recovery is going great. So glad I didn't postpone 😅🙏", sent: false },
+      { text: "Doctor is recommending surgery but I'm scared. Is this the right time?", sent: false, time: "Jun 10, 2:00 PM" },
+      { text: "Your 6th lord is strong and Mars supports medical intervention right now. The next 2 months are favorable. Don't delay.", sent: true, time: "Jun 10, 2:18 PM" },
+      { text: "Surgery went perfectly. Recovery is going great. So glad I didn't postpone 😅🙏", sent: false, time: "Jul 28, 5:30 PM" },
     ],
   },
   {
     messages: [
-      { text: "My father has been unwell for months. Will he recover?", sent: false },
-      { text: "His chart shows Saturn's transit lifting in October. Recovery will be slow but steady. Support him with the remedies I'll share.", sent: true },
-      { text: "Papa is walking again. The whole family is relieved. God bless you 🙏", sent: false },
+      { text: "My father has been unwell for months. Will he recover?", sent: false, time: "Apr 3, 7:45 PM" },
+      { text: "His chart shows Saturn's transit lifting in October. Recovery will be slow but steady. Support him with the remedies I'll share.", sent: true, time: "Apr 3, 8:02 PM" },
+      { text: "Papa is walking again. The whole family is relieved. God bless you 🙏", sent: false, time: "Nov 19, 11:10 AM" },
     ],
   },
 ];

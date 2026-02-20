@@ -97,30 +97,30 @@ const carouselQuestions = [
 const testimonials = [
   {
     messages: [
-      { text: "I've been single for 4 years. Everyone says I'm too picky. Will I ever find someone?", sent: false },
-      { text: "Venus enters your 7th house in May. A meaningful connection is very likely. Stay open.", sent: true },
+      { text: "I've been single for 4 years. Everyone says I'm too picky. Will I ever find someone?", sent: false, time: "Apr 12, 4:30 PM" },
+      { text: "Venus enters your 7th house in May. A meaningful connection is very likely. Stay open.", sent: true, time: "Apr 12, 4:48 PM" },
       { text: "Sir, I met someone last month. It feels different this time 🙏", sent: false, time: "Jun 8, 7:45 PM" },
     ],
   },
   {
     messages: [
-      { text: "My boyfriend and I keep fighting. I don't know if we should stay together.", sent: false },
-      { text: "Mars is creating friction in your 7th house. This phase passes in 3 months. Communicate openly now, don't make permanent decisions.", sent: true },
-      { text: "Things got so much better. We're stronger than ever 🙏", sent: false },
+      { text: "My boyfriend and I keep fighting. I don't know if we should stay together.", sent: false, time: "Jan 25, 9:10 AM" },
+      { text: "Mars is creating friction in your 7th house. This phase passes in 3 months. Communicate openly now, don't make permanent decisions.", sent: true, time: "Jan 25, 9:28 AM" },
+      { text: "Things got so much better. We're stronger than ever 🙏", sent: false, time: "May 2, 8:15 PM" },
     ],
   },
   {
     messages: [
-      { text: "My ex left me 8 months ago. I still can't move on. Will they come back?", sent: false },
-      { text: "Your 5th lord shows a reconnection window in September. But your chart also shows a new, better match coming in December. Keep your heart open.", sent: true },
-      { text: "You were right. Met someone new. I'm actually happy again 😅🙏", sent: false },
+      { text: "My ex left me 8 months ago. I still can't move on. Will they come back?", sent: false, time: "Jun 17, 11:45 PM" },
+      { text: "Your 5th lord shows a reconnection window in September. But your chart also shows a new, better match coming in December. Keep your heart open.", sent: true, time: "Jun 18, 8:10 AM" },
+      { text: "You were right. Met someone new. I'm actually happy again 😅🙏", sent: false, time: "Dec 20, 6:30 PM" },
     ],
   },
   {
     messages: [
-      { text: "I like someone but I don't know if they feel the same. Should I tell them?", sent: false },
-      { text: "Moon and Venus are aligned in your chart right now. This is a favorable time to express your feelings. The energy supports mutual attraction.", sent: true },
-      { text: "I told them. They said they felt the same way!! Thank you 🙏", sent: false },
+      { text: "I like someone but I don't know if they feel the same. Should I tell them?", sent: false, time: "Sep 5, 3:00 PM" },
+      { text: "Moon and Venus are aligned in your chart right now. This is a favorable time to express your feelings. The energy supports mutual attraction.", sent: true, time: "Sep 5, 3:20 PM" },
+      { text: "I told them. They said they felt the same way!! Thank you 🙏", sent: false, time: "Sep 12, 9:55 PM" },
     ],
   },
 ];
