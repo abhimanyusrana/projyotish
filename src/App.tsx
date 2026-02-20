@@ -8,7 +8,7 @@ import PricingPage from "./pages/PricingPage";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/ContactUs";
-import MarriageTiming from "./pages/MarriageTiming";
+
 import CareerLanding from "./pages/CareerLanding";
 import BusinessLanding from "./pages/BusinessLanding";
 import HealthLanding from "./pages/HealthLanding";
@@ -30,7 +30,7 @@ const App = () => (
           <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/marriage-timing" element={<MarriageTiming />} />
+          
           <Route path="/career" element={<CareerLanding />} />
           <Route path="/business" element={<BusinessLanding />} />
           <Route path="/health" element={<HealthLanding />} />
