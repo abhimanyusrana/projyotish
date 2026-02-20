@@ -128,30 +128,30 @@ const carouselQuestions = [
 const testimonials = [
   {
     messages: [
-      { text: "I started a business 2 years ago. Only losses so far. Should I shut it down?", sent: false },
-      { text: "Mercury and Jupiter are aligning in your 7th house. A turnaround starts after April.", sent: true },
+      { text: "I started a business 2 years ago. Only losses so far. Should I shut it down?", sent: false, time: "Jan 18, 3:10 PM" },
+      { text: "Mercury and Jupiter are aligning in your 7th house. A turnaround starts after April.", sent: true, time: "Jan 18, 3:28 PM" },
       { text: "Sir, we just got our biggest client ever! Revenue doubled this month 🙏", sent: false, time: "May 12, 11:20 AM" },
     ],
   },
   {
     messages: [
-      { text: "Thinking of a partnership but not sure if I can trust this person.", sent: false },
-      { text: "Your 7th lord is strong but Rahu creates doubt. Verify everything before July. After that, the path is clear.", sent: true },
-      { text: "We signed the deal. Best decision I made 🙏", sent: false },
+      { text: "Thinking of a partnership but not sure if I can trust this person.", sent: false, time: "Mar 5, 10:00 AM" },
+      { text: "Your 7th lord is strong but Rahu creates doubt. Verify everything before July. After that, the path is clear.", sent: true, time: "Mar 5, 10:22 AM" },
+      { text: "We signed the deal. Best decision I made 🙏", sent: false, time: "Aug 9, 4:35 PM" },
     ],
   },
   {
     messages: [
-      { text: "I want to start a new business but family says it's too risky. Is this the right time?", sent: false },
-      { text: "Sun in your 10th house is powerful right now. The next 6 months are ideal for a new venture. Trust your instinct.", sent: true },
-      { text: "Launched last month. Already profitable! Family is shocked 😅🙏", sent: false },
+      { text: "I want to start a new business but family says it's too risky. Is this the right time?", sent: false, time: "Feb 20, 8:45 AM" },
+      { text: "Sun in your 10th house is powerful right now. The next 6 months are ideal for a new venture. Trust your instinct.", sent: true, time: "Feb 20, 9:05 AM" },
+      { text: "Launched last month. Already profitable! Family is shocked 😅🙏", sent: false, time: "Jul 3, 6:12 PM" },
     ],
   },
   {
     messages: [
-      { text: "Applied for a business loan 3 times. Rejected every time. Will I ever get funding?", sent: false },
-      { text: "Saturn is blocking your 11th house temporarily. Apply again after November. A different lender will say yes.", sent: true },
-      { text: "Loan approved! Starting construction next week. Thank you so much 🙏", sent: false },
+      { text: "Applied for a business loan 3 times. Rejected every time. Will I ever get funding?", sent: false, time: "Aug 14, 1:30 PM" },
+      { text: "Saturn is blocking your 11th house temporarily. Apply again after November. A different lender will say yes.", sent: true, time: "Aug 14, 1:48 PM" },
+      { text: "Loan approved! Starting construction next week. Thank you so much 🙏", sent: false, time: "Dec 2, 10:05 AM" },
     ],
   },
 ];

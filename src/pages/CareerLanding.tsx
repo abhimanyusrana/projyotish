@@ -130,30 +130,30 @@ const carouselQuestions = [
 const testimonials = [
   {
     messages: [
-      { text: "Its been 6 months. I have applied everywhere, but no job. Will I even get a job?", sent: false },
-      { text: "Jupiter aspects your 10th house. A strong period is coming in March.", sent: true },
+      { text: "Its been 6 months. I have applied everywhere, but no job. Will I even get a job?", sent: false, time: "Nov 14, 2:30 PM" },
+      { text: "Jupiter aspects your 10th house. A strong period is coming in March.", sent: true, time: "Nov 14, 2:45 PM" },
       { text: "Sir I got placed on Feb 2 🙏", sent: false, time: "Feb 3, 9:10 AM" },
     ],
   },
   {
     messages: [
-      { text: "Stuck without promotion. I work hard but no recognition.", sent: false },
-      { text: "Saturn is testing you in the 10th. This phase ends in 4 months. Document everything and request in August.", sent: true },
-      { text: "Got promoted last week. Exactly as you said 🙏", sent: false },
+      { text: "Stuck without promotion. I work hard but no recognition.", sent: false, time: "Apr 7, 10:15 AM" },
+      { text: "Saturn is testing you in the 10th. This phase ends in 4 months. Document everything and request in August.", sent: true, time: "Apr 7, 10:32 AM" },
+      { text: "Got promoted last week. Exactly as you said 🙏", sent: false, time: "Aug 22, 6:48 PM" },
     ],
   },
   {
     messages: [
-      { text: "Everyone says government job is not in my fate. Should I stop trying?", sent: false },
-      { text: "Your chart shows strong 10th lord. Keep applying. A window opens between October and December.", sent: true },
-      { text: "Selection list came out. My name is there 😭🙏", sent: false },
+      { text: "Everyone says government job is not in my fate. Should I stop trying?", sent: false, time: "Jul 19, 11:00 AM" },
+      { text: "Your chart shows strong 10th lord. Keep applying. A window opens between October and December.", sent: true, time: "Jul 19, 11:18 AM" },
+      { text: "Selection list came out. My name is there 😭🙏", sent: false, time: "Dec 4, 3:22 PM" },
     ],
   },
   {
     messages: [
-      { text: "Same salary for 3 years. Feel like I'm going nowhere.", sent: false },
-      { text: "Venus in your 2nd house is weak but gets stronger after September. A switch now will bring the hike.", sent: true },
-      { text: "Switched jobs. 40% hike. Thank you so much 🙏", sent: false },
+      { text: "Same salary for 3 years. Feel like I'm going nowhere.", sent: false, time: "Jun 3, 9:40 AM" },
+      { text: "Venus in your 2nd house is weak but gets stronger after September. A switch now will bring the hike.", sent: true, time: "Jun 3, 9:55 AM" },
+      { text: "Switched jobs. 40% hike. Thank you so much 🙏", sent: false, time: "Oct 11, 7:15 PM" },
     ],
   },
 ];
