@@ -168,3 +168,103 @@ collections:
           - { label: "Support Email", name: "supportEmail", widget: "string" }
           - { label: "Copyright Year", name: "copyrightYear", widget: "string" }
           - { label: "Company Name", name: "companyName", widget: "string" }
+
+  # ==========================================
+  # CAREER SUB-TOPICS
+  # ==========================================
+  - name: "career-topics"
+    label: "Career: Sub-topics"
+    folder: "content/topics/career"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short description shown in listings" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false, hint: "Optional: override the browser tab title" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false, hint: "Optional: override the meta description" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ==========================================
+  # HEALTH SUB-TOPICS
+  # ==========================================
+  - name: "health-topics"
+    label: "Health: Sub-topics"
+    folder: "content/topics/health"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short description shown in listings" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false, hint: "Optional: override the browser tab title" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false, hint: "Optional: override the meta description" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ==========================================
+  # BUSINESS SUB-TOPICS
+  # ==========================================
+  - name: "business-topics"
+    label: "Business: Sub-topics"
+    folder: "content/topics/business"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short description shown in listings" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false, hint: "Optional: override the browser tab title" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false, hint: "Optional: override the meta description" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ==========================================
+  # LOVE & RELATIONSHIPS SUB-TOPICS
+  # ==========================================
+  - name: "love-topics"
+    label: "Love & Relationships: Sub-topics"
+    folder: "content/topics/love"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short description shown in listings" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false, hint: "Optional: override the browser tab title" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false, hint: "Optional: override the meta description" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ==========================================
+  # WEALTH SUB-TOPICS
+  # ==========================================
+  - name: "wealth-topics"
+    label: "Wealth: Sub-topics"
+    folder: "content/topics/wealth"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short description shown in listings" }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false, hint: "Optional: override the browser tab title" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false, hint: "Optional: override the meta description" }
+      - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
