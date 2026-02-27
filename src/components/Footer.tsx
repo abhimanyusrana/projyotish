@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logo from "@/src/assets/projyotish-logo-new.jpeg";
+import logo from "@/src/assets/file.svg";
 
 const Footer = () => {
   return (

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, Shield, Clock, Globe, CheckCircle } from "lucide-react";
-import logo from "@/src/assets/projyotish-logo-new.jpeg";
+import logo from "@/src/assets/file.svg";
 import { trackMetaEvent } from "@/src/lib/tracking";
 import Navbar from "@/src/components/Navbar";
 import Footer from "@/src/components/Footer";

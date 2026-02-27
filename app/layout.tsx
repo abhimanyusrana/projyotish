@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       "Get instant, personalized Vedic astrology readings via WhatsApp. AI-powered horoscope predictions, birth chart analysis, and spiritual guidance.",
     images: [
       {
-        url: "/og-image.jpeg",
+        url: "/file.svg",
         width: 1200,
         height: 1200,
         alt: "ProJyotish",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "ProJyotish - Astrologer developed by IITians trained in Astrology",
     description:
       "Get instant, personalized Vedic astrology readings via WhatsApp. AI-powered horoscope predictions and spiritual guidance.",
-    images: ["/og-image.jpeg"],
+    images: ["/file.svg"],
     site: "@ProJyotish",
     creator: "@ProJyotish",
   },

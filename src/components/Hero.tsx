@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import logo from "@/src/assets/projyotish-logo-new.jpeg";
+import logo from "@/src/assets/file.svg";
 import HeroQueryInput from "./HeroQueryInput";
 
 const Hero = () => {
