@@ -1,10 +1,8 @@
 backend:
   name: github
   repo: ProJyotish/projyotish
-  branch: main
+  branch: staging
   base_url: https://projyotish-cms-auth.rana-048.workers.dev
-
-publish_mode: editorial_workflow
 
 # Where uploaded media files are stored
 media_folder: "public/images/uploads"
